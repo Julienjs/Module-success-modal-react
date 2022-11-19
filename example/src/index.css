@@ -1,0 +1,48 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #ffa5b8, #ffc2cd);
+}
+
+button {
+  width: 200px;
+  height: 70px;
+  font-size: 2rem;
+  border: solid black;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor:pointer;
+}
+
+.animation {
+  margin: 0 auto;
+  width: 400px;
+  height: 80%;
+  font-size: 15rem;
+}
+
+.msg {
+  color: black;
+  font-size: 2rem;
+  position: relative;
+  bottom: 6.5rem;
+  margin: 0;
+  animation: translate 0.5s ease-in-out forwards;
+}
+
+@keyframes translate {
+  0% {
+    opacity: 0;
+    transform: translateY(80px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(10px)
+  }
+
+}
