@@ -1,10 +1,10 @@
 {
   "name": "react-modal-success",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "success modal",
   "author": "Julienjs",
   "license": "MIT",
-  "repository": "Julienjs/react-modal",
+  "repository": "Julienjs/Module-success-modal-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
